@@ -9,7 +9,7 @@ box-sizing:border-box;
 /* BODY */
 
 body{
-font-family: Arial, Helvetica, sans-serif;
+font-family:Arial, Helvetica, sans-serif;
 background:#0f172a;
 color:white;
 line-height:1.6;
@@ -18,9 +18,9 @@ line-height:1.6;
 /* HEADER */
 
 header{
-text-align:center;
-padding:50px 20px;
 background:#1e293b;
+padding:50px 20px;
+text-align:center;
 }
 
 header h1{
@@ -29,6 +29,7 @@ margin-bottom:10px;
 }
 
 header p{
+font-size:16px;
 opacity:0.9;
 }
 
@@ -58,13 +59,13 @@ color:#38bdf8;
 section{
 max-width:1000px;
 margin:auto;
-padding:50px 20px;
+padding:60px 20px;
 }
 
 h2{
-color:#38bdf8;
-margin-bottom:20px;
 text-align:center;
+color:#38bdf8;
+margin-bottom:25px;
 }
 
 /* SOBRE */
@@ -77,12 +78,11 @@ text-align:center;
 
 /* FORMAÇÃO */
 
-#formacao p{
+#formacao{
 text-align:center;
-margin:10px 0;
 }
 
-/* SKILLS */
+/* TECNOLOGIAS */
 
 .skills-container{
 display:flex;
@@ -147,8 +147,8 @@ margin:6px 0;
 display:inline-block;
 margin-top:10px;
 color:#38bdf8;
-font-weight:bold;
 text-decoration:none;
+font-weight:bold;
 }
 
 /* GITHUB STATS */
