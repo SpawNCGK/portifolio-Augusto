@@ -198,3 +198,15 @@ display:none;
 #topoBtn:hover{
 transform:scale(1.1);
 }
+#contato a{
+margin:10px;
+display:inline-block;
+}
+
+#contato img{
+transition:0.3s;
+}
+
+#contato img:hover{
+transform:scale(1.2);
+}
