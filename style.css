@@ -39,6 +39,8 @@ h2{
 color:#38bdf8;
 }
 
+/* ===== LISTAS ===== */
+
 ul{
 list-style:none;
 padding:0;
@@ -51,22 +53,8 @@ margin:10px 0;
 border-radius:6px;
 }
 
-.card{
-background:#1e293b;
-padding:20px;
-margin:20px 0;
-border-radius:10px;
-transition:0.3s;
-}
+/* ===== PROJETOS ===== */
 
-.card:hover{
-transform:scale(1.03);
-}
-
-.card a{
-color:#38bdf8;
-text-decoration:none;
-}
 .projetos-container{
 display:flex;
 flex-wrap:wrap;
@@ -98,4 +86,33 @@ margin-top:10px;
 color:#38bdf8;
 text-decoration:none;
 font-weight:bold;
+}
+
+/* ===== TECNOLOGIAS ===== */
+
+.skills-container{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+justify-content:center;
+margin-top:20px;
+}
+
+.skill{
+text-align:center;
+}
+
+.skill img{
+width:40px;
+height:40px;
+transition:0.3s;
+}
+
+.skill img:hover{
+transform:scale(1.2);
+}
+
+.skill p{
+margin-top:8px;
+font-size:14px;
 }
