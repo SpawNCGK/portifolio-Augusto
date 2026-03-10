@@ -188,3 +188,18 @@ background:#020617;
 margin-top:40px;
 opacity:0.8;
 }
+/* GITHUB STATS */
+
+.github-stats{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+margin-top:20px;
+}
+
+.github-stats img{
+width:400px;
+max-width:100%;
+border-radius:10px;
+}
